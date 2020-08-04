@@ -12,5 +12,4 @@
  ```
  
  Thanks to:
-  > God
-  > Anyone who has helped make this program
+  > God and Anyone who has helped make this program
